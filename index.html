@@ -1,0 +1,433 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="mediaqueries.css" />
+    <title>Felipe Araya | Sofware Developer</title>
+  </head>
+  <body>
+    <nav id="desktop-nav">
+      <div class="logo">Felipe Araya</div>
+      <div>
+        <ul class="nav-links">
+          <li><a href="#about">About</a></li>
+          <li><a href="#experience">Experience</a></li>
+          <li><a href="#projects">Proyects</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </div>
+    </nav>
+    <nav id="hamburger-nav">
+      <div class="logo">Felipe Araya</div>
+      <div class="haburger-menu">
+        <div class="hamburger-icon" onclick="toggleMenu()">
+          <span></span>
+          <span></span>
+          <span></span>
+        </div>
+        <div class="menu-links">
+          <li><a href="#home" onclick="toggleMenu()">Home</a></li>
+          <li><a href="#experience" onclick="toggleMenu()">Experience</a></li>
+          <li><a href="#projects" onclick="toggleMenu()">Proyects</a></li>
+          <li><a href="#contact" onclick="toggleMenu()">Contact</a></li>
+        </div>
+      </div>
+    </nav>
+
+    <section id="profile">
+      <div class="section__pic-container">
+        <img
+          src="assets/profile_pic.jpg"
+          alt="Profile Photo"
+          class="profile_pic"
+        />
+      </div>
+      <div class="section__text">
+        <p class="section__text__p1">Hello, I'm</p>
+        <h2 class="title">Felipe Araya</h2>
+        <p class="section__text__p2">Software Developer</p>
+        <div class="btn-container">
+          <button
+            class="btn btn-color-2"
+            onclick="window.open('./assets/CV-ArayaFelipe-Personal.pdf')"
+          >
+            Download CV
+          </button>
+          <button class="btn btn-color-1" onclick="location.href = '#contact'">
+            Contact
+          </button>
+        </div>
+        <div id="socials-container">
+          <img
+            src="./assets/linkedin.svg"
+            alt="Linkedin"
+            class="icon"
+            onclick="location.href = 'https://www.linkedin.com/in/felipe-araya-302819260/'"
+          />
+          <img
+            src="./assets/github-alt.svg"
+            alt="Github"
+            class="icon"
+            onclick="location.href = 'https://github.com/Felipe-Araya-Becerra'"
+          />
+        </div>
+      </div>
+    </section>
+
+    <section id="about">
+      <p class="section__text__p1">Get to know More</p>
+      <h2 class="title">About Me!</h2>
+      <div class="section-container">
+        <div class="section__pic-container">
+          <img src="./assets/about-img.jpg" alt="" class="about-pic" />
+        </div>
+        <div class="about-details-container">
+          <div class="about-containers">
+            <div class="details-container">
+              <img src="./assets/experience.png" alt="" class="icon" />
+              <h2>Experience</h2>
+              <p>1+ years <br />Software Development</p>
+            </div>
+            <div class="details-container">
+              <img src="./assets/education.png" alt="education" class="icon" />
+              <h2>Education</h2>
+              <p>Analyst Programmer Degree <br />Software Development</p>
+            </div>
+          </div>
+          <div class="text-container">
+            <p>
+              I am a Programmer Analyst with a solid academic background,
+              graduated from the prestigious Inacap institution. I have a
+              passionate dedication to technology and software development,
+              backed by the knowledge acquired during my educational career. My
+              skills cover programming, databases and systems analysis,
+              consolidating a robust technical base. Throughout my career, I
+              have proven to be a creative professional with an exceptional
+              ability to address and solve problems efficiently. My proactive
+              approach and ability to work collaboratively have allowed me to
+              contribute significantly to multidisciplinary teams. As a
+              programmer analyst, my goal is to achieve excellence in software
+              development and systems analysis. I aspire to apply my skills and
+              knowledge to drive innovation, contributing to the creation of
+              cutting-edge applications that not only improve operational
+              efficiency, but also positively impact everyday life and solve
+              significant challenges in various sectors.
+            </p>
+          </div>
+        </div>
+      </div>
+      <img
+        src="./assets/arrow.png"
+        alt="Arrow icon"
+        class="icon arrow"
+        onclick="location.href='#experience'"
+      />
+    </section>
+
+    <section id="experience">
+      <p class="section__text__p1">Explore My</p>
+      <h2 class="title">Experience</h2>
+      <div class="experience-details-container">
+        <div class="about-containers">
+          <div class="details-container">
+            <h2 class="experience-sub-title">FrontEnd Development</h2>
+            <div class="article-container">
+              <article>
+                <img
+                  src="./assets/checkmark.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>HTML</h3>
+                  <p>Experienced</p>
+                </div>
+              </article>
+              <article>
+                <img
+                  src="./assets/checkmark.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>CSS3</h3>
+                  <p>Experienced</p>
+                </div>
+              </article>
+              <article>
+                <img
+                  src="./assets/checkmark.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>JavaScript</h3>
+                  <p>Experienced</p>
+                </div>
+              </article>
+              <article>
+                <img
+                  src="./assets/checkmark.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>TypeScript</h3>
+                  <p>
+                    Intermediate</p>
+                </div>
+              </article>
+              <article>
+                <img
+                  src="./assets/checkmark.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>Bootstrap</h3>
+                  <p>
+                    Intermediate</p>
+                </div>
+              </article>
+              <article>
+                <img
+                  src="./assets/checkmark.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>ReactJS</h3>
+                  <p>
+                    Intermediate</p>
+                </div>
+              </article>
+              <article>
+                <img
+                  src="./assets/checkmark.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>Angular 17</h3>
+                  <p>Basic</p>
+                </div>
+              </article>
+            </div>
+          </div>
+          <div class="details-container">
+            <h2 class="experience-sub-title">Backend Development</h2>
+            <div class="article-container">
+              <article>
+                <img
+                  src="./assets/checkmark.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>Java</h3>
+                  <p>
+                    Intermediate</p>
+                </div>
+              </article>
+              <article>
+                <img
+                  src="./assets/checkmark.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>PHP</h3>
+                  <p>Intermediate</p>
+                </div>
+              </article>
+              <article>
+                <img
+                  src="./assets/checkmark.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>Python</h3>
+                  <p>Basic</p>
+                </div>
+              </article>
+              <article>
+                <img
+                  src="./assets/checkmark.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>NodeJs</h3>
+                  <p>Intermediate</p>
+                </div>
+              </article>
+              <article>
+                <img
+                  src="./assets/checkmark.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>C# .Net</h3>
+                  <p>Basic</p>
+                </div>
+              </article>
+              <article>
+                <img
+                  src="./assets/checkmark.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>SQL</h3>
+                  <p>Experienced</p>
+                </div>
+              </article>
+              <article>
+                <img
+                  src="./assets/checkmark.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>PostgreSQL</h3>
+                  <p>Experienced</p>
+                </div>
+              </article>
+            </div>
+          </div>
+        </div>
+      </div>
+      <img
+        src="./assets/arrow.png"
+        alt="Arrow icon"
+        class="icon arrow"
+        onclick="location.href='#projects'"
+      />
+    </section>
+
+    <section id="projects">
+      <p class="section__text__p1">Browse my Recent</p>
+      <h2 class="title">Projects</h2>
+      <div class="experience-details-container">
+        <div class="about-containers">
+          <div class="details-container color-container">
+            <!-- <div class="article-container">
+              <img src="" alt="Projects photo" class="project-img" />
+            </div> -->
+            <h2 class="experience-sub-title project-title">Work In Progress</h2>
+            <!-- <div class="btn-container">
+              <button
+                class="btn btn-color-2 project-btn"
+                onclick="location.href='https://github.com'"
+              >
+                Github
+              </button>
+              <button
+                class="btn btn-color-2 project-btn"
+                onclick="location.href='https://github.com'"
+              >
+                Live demo
+              </button>
+            </div> -->
+          </div>
+          <!-- <div class="details-container color-container">
+            <div class="article-container">
+              <img src="" alt="Projects photo" class="project-img" />
+            </div>
+            <h2 class="experience-sub-title project-title">Project Two</h2>
+            <div class="btn-container">
+              <button
+                class="btn btn-color-2 project-btn"
+                onclick="location.href='https://github.com'"
+              >
+                Github
+              </button>
+              <button
+                class="btn btn-color-2 project-btn"
+                onclick="location.href='https://github.com'"
+              >
+                Live demo
+              </button>
+            </div>
+          </div> -->
+          <!-- <div class="details-container color-container">
+            <div class="article-container">
+              <img src="" alt="Projects photo" class="project-img" />
+            </div>
+            <h2 class="experience-sub-title project-title">Project Three</h2>
+            <div class="btn-container">
+              <button
+                class="btn btn-color-2 project-btn"
+                onclick="location.href='https://github.com'"
+              >
+                Github
+              </button>
+              <button
+                class="btn btn-color-2 project-btn"
+                onclick="location.href='https://github.com'"
+              >
+                Live demo
+              </button>
+            </div>
+          </div> -->
+        </div>
+      </div>
+      <img
+        src="./assets/arrow.png"
+        alt="Arrow icon"
+        class="icon arrow"
+        onclick="location.href='#contact'"
+      />
+    </section>
+
+    <section id="contact">
+      <p class="section__text__p1">Get in Touch</p>
+      <h2 class="title">Contact Me</h2>
+      <div class="contact-info-upper-container">
+        <div class="contact-info-container">
+          <img
+            src="./assets/email.png"
+            alt="email Icon"
+            class="icon contact-icon email-icon"
+          />
+          <p>
+            <a href="mailto:felipe.araya.becerra@gmail.com"
+              >felipe.araya.becerra@gmail.com</a
+            >
+          </p>
+        </div>
+        <div class="contact-info-container">
+          <img
+            src="./assets/linkedin.svg"
+            alt="Linkedin Icon"
+            class="icon contact-icon"
+          />
+          <p>
+            <a href="https://www.linkedin.com/in/felipe-araya-302819260/'"
+              >LinkedIn</a
+            >
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <footer>
+      <nav>
+        <div class="nav-links-container">
+          <ul class="nav-links">
+            <li><a href="#about">About</a></li>
+            <li><a href="#experience">Experience</a></li>
+            <li><a href="#projects">Proyects</a></li>
+            <li><a href="#contact">Contact</a></li>
+          </ul>
+        </div>
+      </nav>
+      <p>CopyRight &#169; 2024 Felipe Araya. All Rights Reserved</p>
+    </footer>
+    <script src="script.js"></script>
+  </body>
+</html>
