@@ -297,6 +297,10 @@ section{
   margin: auto 0;
 }
 
+.text-container p{
+  text-align: justify;
+}
+
 /* Experience */
 
 #experience{
@@ -350,6 +354,7 @@ article .icon{
 .project-img{
   border-radius: 2rem;
   width: 90%;
+  max-width: 300px;
   height: 90%;
 }
 
